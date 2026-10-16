@@ -31,9 +31,10 @@ export default function Home() {
             role: ".NET Developer at Central Technology",
             location: "Remote · Chesterfield-based company",
             desc: [
-                "Develop live, interactive wallboards powered by SignalR for real-time operational visibility. A reusable framework gets a new branch its boards in about 20 minutes.",
-                "Build real-time, multi-tenant dispatch features in ASP.NET Core, SignalR and EF Core.",
-                "Implement AI automation with Semantic Kernel inside an agent architecture built on vertical slicing and shared context files."
+                "Build production AI features with Microsoft Agent Framework across a range of use cases, from chat interfaces to recommendation generators.",
+                "Set up AI-assisted development workflows in Codex and Claude, using optimised instruction files, execution plans and git worktrees to run about three workstreams in parallel.",
+                "Built an AI benchmarking suite, packaged as a Codex skill, that compares models on a common task to pick the best one.",
+                "Build real-time, multi-tenant dispatch features in ASP.NET Core, SignalR and EF Core, alongside SignalR wallboards and a reusable framework that gets a new branch its boards in about 20 minutes."
             ]
         },
         {
@@ -66,7 +67,7 @@ export default function Home() {
             "ASP.NET Core", "C#", ".NET", "Entity Framework Core",
             "Blazor", "SignalR", "SQL", "PostgreSQL",
             "Next.js", "React", "Tailwind CSS", "JavaScript", "TypeScript",
-            "RESTful APIs", "Semantic Kernel", "AI Integration"
+            "RESTful APIs", "Microsoft Agent Framework", "AI Integration"
         ],
         "address": {
             "@type": "PostalAddress",
@@ -280,7 +281,7 @@ export default function Home() {
                                         structured fields: summary, symptoms, causes, treatments, and citations. Existing topics
                                         are re-processed at 3 AM UTC so the data stays current. Semantic Kernel was chosen over
                                         direct SDK calls because it handles prompt orchestration and makes it easy to swap models
-                                        or add prompt filters without touching business logic.
+                                        or add prompt filters without touching business logic. Microsoft has since superseded it with Agent Framework, which is what I use at work now.
                                     </li>
                                     <li>
                                         <strong className="text-foreground">Automated quality control</strong>: after each

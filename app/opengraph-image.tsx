@@ -59,7 +59,7 @@ export default function Image() {
                     Full-Stack .NET Developer · UK
                 </div>
                 <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
-                    {["ASP.NET Core", "C#", "Blazor", "SignalR", "Semantic Kernel"].map((skill) => (
+                    {["ASP.NET Core", "C#", "Blazor", "SignalR", "Agent Framework"].map((skill) => (
                         <div
                             key={skill}
                             style={{

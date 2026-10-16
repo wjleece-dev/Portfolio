@@ -18,14 +18,14 @@ const themeScript = `
 export const metadata: Metadata = {
     metadataBase: new URL("https://wjleece.dev"),
     title: "Will Leece | Full-Stack .NET Developer | ASP.NET Core, C# | UK",
-    description: "Will Leece is a UK-based full-stack .NET developer. ASP.NET Core, C#, Blazor, SignalR, and Semantic Kernel.",
+    description: "Will Leece is a UK-based full-stack .NET developer. ASP.NET Core, C#, Blazor, SignalR, and Microsoft Agent Framework.",
     keywords: ["William Leece", "Will Leece", "Full-Stack Developer", "Software Engineer", "Portfolio", ".NET", "C#", "ASP.NET Core", "Next.js", "Tailwind CSS", "UK Developer"],
     authors: [{ name: "William Leece", url: "https://wjleece.dev" }],
     creator: "William Leece",
     publisher: "William Leece",
     openGraph: {
         title: "Will Leece | Full-Stack .NET Developer | ASP.NET Core, C# | UK",
-        description: "Will Leece is a UK-based full-stack .NET developer. ASP.NET Core, C#, Blazor, SignalR, and Semantic Kernel.",
+        description: "Will Leece is a UK-based full-stack .NET developer. ASP.NET Core, C#, Blazor, SignalR, and Microsoft Agent Framework.",
         url: "https://wjleece.dev/",
         siteName: "wjleece.dev",
         type: "website",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Will Leece | Full-Stack .NET Developer | ASP.NET Core, C# | UK",
-        description: "Will Leece is a UK-based full-stack .NET developer. ASP.NET Core, C#, Blazor, SignalR, and Semantic Kernel.",
+        description: "Will Leece is a UK-based full-stack .NET developer. ASP.NET Core, C#, Blazor, SignalR, and Microsoft Agent Framework.",
         images: ["/opengraph-image"],
     },
     alternates: {

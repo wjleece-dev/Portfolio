@@ -132,7 +132,7 @@ export default function MeducateApiPage() {
                                     would work for pretty much any domain with a lot of messy source material. I
                                     went with Semantic Kernel mainly because it, and Blazor, sit inside the .NET
                                     ecosystem I already use day to day at my full-time job, rather than juggling a
-                                    second stack purely for this project.
+                                    second stack purely for this project. Microsoft has since superseded it with Agent Framework, which is what I use at work now.
                                 </p>
                             </div>
                             <div>
