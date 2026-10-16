@@ -32,8 +32,8 @@ export default function Home() {
             location: "Remote · Chesterfield-based company",
             desc: [
                 "Build production AI features with Microsoft Agent Framework across a range of use cases, from chat interfaces to recommendation generators.",
-                "Set up AI-assisted development workflows in Codex and Claude, using optimised instruction files, execution plans and git worktrees to run about three workstreams in parallel.",
-                "Built an AI benchmarking suite, packaged as a Codex skill, that compares models on a common task to pick the best one.",
+                "Set up AI-assisted development workflows in Codex and Claude, using optimised instruction files, execution plans and git worktrees. Running two to three workstreams in parallel at least doubles my throughput.",
+                "Built an AI benchmarking suite, packaged as a Codex skill, that compares any model available in Codex on a common task, and tests instruction files per model per task to find the best model and instruction file for each job.",
                 "Build real-time, multi-tenant dispatch features in ASP.NET Core, SignalR and EF Core, alongside SignalR wallboards and a reusable framework that gets a new branch its boards in about 20 minutes."
             ]
         },
