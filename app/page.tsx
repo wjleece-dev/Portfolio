@@ -35,7 +35,7 @@ export default function Home() {
                 "Set up AI-assisted development workflows in Codex and Claude, using optimised instruction files, execution plans and git worktrees. Running two to three workstreams in parallel at least doubles my throughput.",
                 "Built an AI benchmarking suite, packaged as a Codex skill, that compares any model available in Codex on a common task, and tests instruction files per model per task to find the best model and instruction file for each job.",
                 "Built SignalR wallboards and a reusable framework that gets a new branch its boards in about 20 minutes.",
-                "Build features for a multi-tenant client portal used by hundreds of users, built in ASP.NET Core, Blazor and EF Core, where customers view their own data and submit requests.",
+                "Build features for a multi-tenant client portal used by hundreds of client organisations and thousands of users, built in ASP.NET Core, Blazor and EF Core, where customers view their own data and submit requests.",
                 "Optimised many slow reports and queries, some from minutes to seconds, using parameterised OPENQUERY, subquery filtering and EF Core refactoring."
             ]
         },
