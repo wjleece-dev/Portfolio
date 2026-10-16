@@ -31,7 +31,7 @@ export default function Home() {
             role: ".NET Developer at Central Technology",
             location: "Remote · Chesterfield-based company",
             desc: [
-                "Develop live, interactive wallboards powered by SignalR for real-time operational visibility, built on a reusable framework that lets a new branch go live in about 20 minutes.",
+                "Develop live, interactive wallboards powered by SignalR for real-time operational visibility. A reusable framework gets a new branch its boards in about 20 minutes.",
                 "Build real-time, multi-tenant dispatch features in ASP.NET Core, SignalR and EF Core.",
                 "Implement AI automation with Semantic Kernel inside an agent architecture built on vertical slicing and shared context files."
             ]

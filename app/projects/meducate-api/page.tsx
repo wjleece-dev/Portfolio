@@ -72,7 +72,7 @@ export default function MeducateApiPage() {
                     rel="noopener noreferrer"
                     className="text-sm text-muted-foreground italic hover:text-foreground transition"
                 >
-                    meducateapi.com — live, free API key
+                    meducateapi.com (live, free API key)
                 </a>
 
                 <div className="flex flex-wrap gap-2 mt-6 mb-12">
