@@ -205,7 +205,7 @@ export default function MeducateApiPage() {
             </div>
 
             <footer className="w-full border-t border-border text-center py-6 text-sm text-muted-foreground">
-                <a href="mailto:jamesleece24@gmail.com" className="hover:text-foreground transition">jamesleece24@gmail.com</a>
+                <a href="mailto:will@wjleece.dev" className="hover:text-foreground transition">will@wjleece.dev</a>
             </footer>
         </main>
     );

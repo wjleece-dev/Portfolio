@@ -133,7 +133,7 @@ export default function Home() {
 
                 <div className="flex space-x-6 mt-4">
                     <Button asChild size="sm" variant="ghost" aria-label="Email" className="cursor-pointer">
-                        <a href="mailto:jamesleece24@gmail.com" rel="noopener noreferrer me">
+                        <a href="mailto:will@wjleece.dev" rel="noopener noreferrer me">
                             <Mail className="w-6 h-6 text-[#EA4335] transition-opacity hover:opacity-80" />
                         </a>
                     </Button>
@@ -464,7 +464,7 @@ export default function Home() {
 
             {/* Footer */}
             <footer className="w-full border-t border-border text-center py-6 text-sm text-muted-foreground">
-                <a href="mailto:jamesleece24@gmail.com" className="hover:text-foreground transition">jamesleece24@gmail.com</a>
+                <a href="mailto:will@wjleece.dev" className="hover:text-foreground transition">will@wjleece.dev</a>
             </footer>
         </main>
     );
