@@ -40,7 +40,7 @@ export default function Home() {
             ]
         },
         {
-            years: "Oct 2022 – Apr 2025",
+            years: "Oct 2022 – Mar 2025",
             role: "Junior .NET Developer at Central Technology",
             location: "Remote · Chesterfield-based company",
             desc: [
@@ -62,7 +62,7 @@ export default function Home() {
             "name": "Central Technology"
         },
         "sameAs": [
-            "https://www.linkedin.com/in/will-leece-485803236/",
+            "https://www.linkedin.com/in/wjleece/",
             "https://github.com/kino1307"
         ],
         "knowsAbout": [
@@ -140,7 +140,7 @@ export default function Home() {
 
                     <Button asChild size="sm" variant="ghost" aria-label="LinkedIn" className="cursor-pointer">
                         <a
-                            href="https://www.linkedin.com/in/will-leece-485803236/"
+                            href="https://www.linkedin.com/in/wjleece/"
                             target="_blank"
                             rel="noopener noreferrer me"
                         >
