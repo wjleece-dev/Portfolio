@@ -59,7 +59,7 @@ export default function Image() {
                     Structured medical data from MedlinePlus and PubMed, LLM-classified and WHO ICD-11 coded
                 </div>
                 <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
-                    {["Dotnet 10", "Blazor Server", "PostgreSQL", "Semantic Kernel"].map((skill) => (
+                    {[".NET 10", "Blazor Server", "PostgreSQL", "Semantic Kernel"].map((skill) => (
                         <div
                             key={skill}
                             style={{

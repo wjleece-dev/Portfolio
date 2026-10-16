@@ -66,11 +66,11 @@ type TechIcon = { Icon: ElementType; className?: string };
 // Official brand hex verified against simple-icons/simple-icons data/simple-icons.json (source of truth,
 // not general recollection — a couple of earlier guesses for Vite/Node/Wikidata/PostgreSQL were wrong).
 // The badge pill background flips near-white <-> near-black between themes, so colors close in luminance
-// to one of those extremes (near-black Railway, dark purple Dotnet/Blazor, mid purple Vite, light cyan React)
+// to one of those extremes (near-black Railway, dark purple .NET/Blazor, mid purple Vite, light cyan React)
 // get a theme-specific variant to stay legible; everything else has enough contrast against both.
 // Semantic Kernel has no mark of its own, so it falls back to Microsoft's logo.
 export const TECH_ICONS: Record<string, TechIcon[]> = {
-    "Dotnet 10": [{ Icon: SiDotnet, className: "text-[#512BD4] dark:text-[#8b7cf6]" }],
+    ".NET 10": [{ Icon: SiDotnet, className: "text-[#512BD4] dark:text-[#8b7cf6]" }],
     "Blazor Server": [{ Icon: SiBlazor, className: "text-[#512BD4] dark:text-[#8b7cf6]" }],
     PostgreSQL: [{ Icon: SiPostgresql, className: "text-[#4169E1]" }],
     "Semantic Kernel": [{ Icon: MicrosoftLogo }],

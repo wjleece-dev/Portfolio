@@ -4,7 +4,7 @@ Context for LLM sessions working on this repo.
 
 ## What this is
 
-Personal portfolio site for Will Leece (wjleece.dev). Single-page Next.js app — no routing beyond the root, no API routes, no database. Deployed as a static export.
+Personal portfolio site for Will Leece (wjleece.dev). Next.js app: a single-page homepage plus a case-study page per project under `app/projects/`. No API routes, no database. Hosted on Vercel.
 
 ## Stack
 
@@ -13,7 +13,7 @@ Personal portfolio site for Will Leece (wjleece.dev). Single-page Next.js app �
 - **TypeScript 6**
 - **shadcn/ui** — only `Button` primitive installed (`components/ui/`)
 - **lucide-react** — icons
-- **react-icons** — `SiGithub` (Simple Icons), `FaLinkedin` (Font Awesome)
+- **react-icons** — Simple Icons (`si`) for tech badges and GitHub, `FaLinkedin` (Font Awesome)
 - No test framework. `npm run build` is the only check that matters before committing.
 
 ## File map
@@ -21,7 +21,8 @@ Personal portfolio site for Will Leece (wjleece.dev). Single-page Next.js app �
 ```
 app/
   layout.tsx      — metadata, OG tags, theme-flash prevention script, Geist fonts
-  page.tsx        — entire site (single file, ~315 lines)
+  page.tsx        — homepage (about, experience, projects with inline case studies)
+  projects/       — standalone case-study pages (meducate-api, wayfarer) with their own metadata/OG images
   globals.css     — Tailwind base + CSS custom properties for light/dark tokens
   sitemap.ts      — static sitemap
   robots.ts       — robots.txt
@@ -32,15 +33,15 @@ lib/utils.ts      — cn() helper (clsx + tailwind-merge)
 next.config.ts    — only 301 redirects, nothing else
 ```
 
-Everything visible to a visitor lives in `app/page.tsx`. If a task touches content, layout, or interactivity, that is the file.
+Homepage content lives in `app/page.tsx`. Tech badges (with brand logos) come from `components/tech-badge.tsx` + `lib/tech-icons.tsx`; every tag used must have an entry there. The CV is a static `public/cv.pdf`.
 
 ## Architecture / constraints
 
 - **Single page, scroll-based navigation.** Navbar smooth-scrolls to `#about`, `#experience`, `#projects`. No client-side routing.
 - **Dark mode** defaults to dark, persisted in `localStorage`. Theme flash is prevented by an inline script in `layout.tsx` that runs before hydration.
 - **State is minimal:** `meducateExpanded` (bool) toggles the Meducate case study inline. `darkMode` (bool) drives the theme toggle. Both are `useState` in `Home()`.
-- **No separate case study pages.** The case study is an in-page expandable section on the project card, not a route.
-- **Static export.** No server components with data fetching, no API routes. Keep it that way unless there is a strong reason.
+- **Case studies exist in two places on purpose:** expandable on the homepage card, and as standalone pages under `app/projects/` for SEO. Keep their facts in sync.
+- **No data fetching.** No server components with data fetching, no API routes. Keep it that way unless there is a strong reason.
 - **JSON-LD** structured data (`Person` schema) is inlined in `page.tsx` via `dangerouslySetInnerHTML`.
 
 ## Projects currently shown
@@ -85,6 +86,13 @@ npm run lint     # ESLint
 
 ## What not to do
 
-- Don't add new pages/routes without a clear reason — the single-page model is intentional
+- Don't add new pages/routes without a clear reason
 - Don't add new dependencies for things a few lines of Tailwind/React can do
 - Don't commit secrets, API keys, or personal info beyond what is already public (email in footer is intentional)
+
+## Naming and CV rules
+
+- Write ".NET" (not "Dotnet") everywhere: titles, meta, tags, CV. Recruiters search ".NET".
+- The public CV must not contain a phone number. Location is "Fife, Scotland · Remote".
+- Both roles are remote for a Chesterfield-based employer; say so.
+- Never invent metrics. Numbers on the CV/site must be real (Meducate figures already on the site are fine to reuse).

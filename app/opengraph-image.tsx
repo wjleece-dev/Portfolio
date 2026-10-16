@@ -56,7 +56,7 @@ export default function Image() {
                         fontWeight: 400,
                     }}
                 >
-                    Full-Stack Dotnet Developer · UK
+                    Full-Stack .NET Developer · UK
                 </div>
                 <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
                     {["ASP.NET Core", "C#", "Blazor", "SignalR", "Semantic Kernel"].map((skill) => (

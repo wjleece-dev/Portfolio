@@ -28,17 +28,18 @@ export default function Home() {
     const experience = [
         {
             years: "Feb 2025 – Present",
-            role: "Dotnet Developer at Central Technology",
-            location: "Chesterfield, UK",
+            role: ".NET Developer at Central Technology",
+            location: "Remote · Chesterfield-based company",
             desc: [
-                "Develop live, interactive wallboards powered by SignalR for real-time operational visibility.",
+                "Develop live, interactive wallboards powered by SignalR for real-time operational visibility, built on a reusable framework that lets a new branch go live in about 20 minutes.",
+                "Build real-time, multi-tenant dispatch features in ASP.NET Core, SignalR and EF Core.",
                 "Implement AI automation with Semantic Kernel inside an agent architecture built on vertical slicing and shared context files."
             ]
         },
         {
             years: "Oct 2022 – Feb 2025",
-            role: "Junior Dotnet Developer at Central Technology",
-            location: "Chesterfield, UK",
+            role: "Junior .NET Developer at Central Technology",
+            location: "Remote · Chesterfield-based company",
             desc: [
                 "Built bespoke features across internal and customer-facing CRUD applications using ASP.NET Core, C#, and EF Core.",
                 "Authored bespoke reports for recurring operational issues and data forensics that turn manual investigation into repeatable tooling."
@@ -62,7 +63,7 @@ export default function Home() {
             "https://github.com/kino1307"
         ],
         "knowsAbout": [
-            "ASP.NET Core", "C#", "Dotnet", "Entity Framework Core",
+            "ASP.NET Core", "C#", ".NET", "Entity Framework Core",
             "Blazor", "SignalR", "SQL", "PostgreSQL",
             "Next.js", "React", "Tailwind CSS", "JavaScript", "TypeScript",
             "RESTful APIs", "Semantic Kernel", "AI Integration"
@@ -124,7 +125,7 @@ export default function Home() {
             <section id="about" className="flex flex-col items-center justify-start text-center px-6 space-y-6 pt-32 md:pt-40" aria-label="About Me">
                 <h1 className="text-5xl md:text-7xl font-extrabold">I&apos;m Will Leece,</h1>
                 <p className="text-lg md:text-xl text-muted-foreground max-w-xl">
-                    a full-stack Dotnet developer based in the UK, currently building at Central Technology.
+                    a full-stack .NET developer based in the UK, currently building at Central Technology.
                 </p>
 
                 <div className="flex space-x-6 mt-4">
@@ -172,7 +173,7 @@ export default function Home() {
             <section id="skills" className="scroll-mt-20 max-w-4xl mx-auto px-6 py-12" aria-label="About and Skills">
                 <h2 className="text-3xl font-semibold mb-6 text-left">About</h2>
                 <p className="text-muted-foreground max-w-3xl">
-                    I specialise in real-time Dotnet systems, SignalR and multi-tenant dispatch, and in AI-output
+                    I specialise in real-time .NET systems, SignalR and multi-tenant dispatch, and in AI-output
                     verification: building independent QA and checks around LLM-generated content rather than
                     trusting model output directly.
                 </p>
@@ -215,7 +216,7 @@ export default function Home() {
                         A REST API that ingests medical data from MedlinePlus and PubMed, uses an LLM to classify and structure it into standardised medical categories, and serves it through a versioned interface refreshed daily. Nightly quality-control jobs check that AI-generated summaries haven&apos;t drifted from their source material and flag any that have for re-processing. Diagnosable topics are also cross-referenced against the WHO ICD-11 API and tagged with a real diagnostic code where a confident match exists.
                     </p>
                     <div className="flex flex-wrap gap-2 mb-3">
-                        {["Dotnet 10", "Blazor Server", "PostgreSQL", "Semantic Kernel", "Hangfire", "Railway", "WHO ICD-11 API"].map((tag) => (
+                        {[".NET 10", "Blazor Server", "PostgreSQL", "Semantic Kernel", "Hangfire", "Railway", "WHO ICD-11 API"].map((tag) => (
                             <TechBadge key={tag} tag={tag} />
                         ))}
                     </div>
@@ -266,7 +267,7 @@ export default function Home() {
                                 <p className="mb-3">
                                     Meducate follows Clean Architecture across four layers (Domain, Application,
                                     Infrastructure, and Presentation) so the data providers, LLM processor, and persistence
-                                    layer can each be replaced independently. It ships as a Dotnet 10 monolith on Railway,
+                                    layer can each be replaced independently. It ships as a .NET 10 monolith on Railway,
                                     which keeps operational complexity low while the product is early stage.
                                 </p>
                                 <ul className="list-disc list-inside space-y-2">

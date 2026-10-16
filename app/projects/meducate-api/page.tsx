@@ -4,13 +4,13 @@ import { TechBadge } from "@/components/tech-badge";
 
 export const metadata: Metadata = {
     title: "Meducate API — Medical Data REST API Case Study | Will Leece",
-    description: "A REST API delivering structured medical data from MedlinePlus and PubMed, categorised and WHO ICD-11 coded. Built with Dotnet 10, Blazor Server, PostgreSQL, and Semantic Kernel.",
+    description: "A REST API delivering structured medical data from MedlinePlus and PubMed, categorised and WHO ICD-11 coded. Built with .NET 10, Blazor Server, PostgreSQL, and Semantic Kernel.",
     alternates: {
         canonical: "https://wjleece.dev/projects/meducate-api",
     },
     openGraph: {
         title: "Meducate API — Medical Data REST API Case Study | Will Leece",
-        description: "A REST API delivering structured medical data from MedlinePlus and PubMed, categorised and WHO ICD-11 coded. Built with Dotnet 10, Blazor Server, PostgreSQL, and Semantic Kernel.",
+        description: "A REST API delivering structured medical data from MedlinePlus and PubMed, categorised and WHO ICD-11 coded. Built with .NET 10, Blazor Server, PostgreSQL, and Semantic Kernel.",
         url: "https://wjleece.dev/projects/meducate-api",
         type: "article",
     },
@@ -21,7 +21,7 @@ const jsonLd = {
     "@type": "SoftwareSourceCode",
     "name": "Meducate API",
     "description": "A REST API delivering structured medical data ingested from MedlinePlus and PubMed, classified by LLM and WHO ICD-11 coded, served through a clean versioned interface refreshed daily.",
-    "programmingLanguage": ["C#", "Dotnet 10"],
+    "programmingLanguage": ["C#", ".NET 10"],
     "runtimePlatform": "Railway",
     "author": {
         "@type": "Person",
@@ -72,11 +72,11 @@ export default function MeducateApiPage() {
                     rel="noopener noreferrer"
                     className="text-sm text-muted-foreground italic hover:text-foreground transition"
                 >
-                    meducateapi.com — currently under development
+                    meducateapi.com — live, free API key
                 </a>
 
                 <div className="flex flex-wrap gap-2 mt-6 mb-12">
-                    {["Dotnet 10", "Blazor Server", "PostgreSQL", "Semantic Kernel", "Hangfire", "Railway", "WHO ICD-11 API"].map((tag) => (
+                    {[".NET 10", "Blazor Server", "PostgreSQL", "Semantic Kernel", "Hangfire", "Railway", "WHO ICD-11 API"].map((tag) => (
                         <TechBadge key={tag} tag={tag} />
                     ))}
                 </div>
@@ -111,7 +111,7 @@ export default function MeducateApiPage() {
                             building this I&apos;ve moved onto a hybridised vertical-slice architecture at my
                             full-time job, and it&apos;s a drastic improvement when you&apos;re working alongside an
                             AI coding partner. Clean Architecture wasn&apos;t the wrong call at the time, it&apos;s
-                            just not what I&apos;d reach for today. It still runs as a single Dotnet 10 monolith on
+                            just not what I&apos;d reach for today. It still runs as a single .NET 10 monolith on
                             Railway, which keeps things simple while the product is early.
                         </p>
                         <div className="space-y-6">
@@ -130,7 +130,7 @@ export default function MeducateApiPage() {
                                     serve. That&apos;s the part of this project I&apos;m most proud of, it&apos;s a
                                     generic enough pattern that it isn&apos;t really tied to medical data at all, it
                                     would work for pretty much any domain with a lot of messy source material. I
-                                    went with Semantic Kernel mainly because it, and Blazor, sit inside the Dotnet
+                                    went with Semantic Kernel mainly because it, and Blazor, sit inside the .NET
                                     ecosystem I already use day to day at my full-time job, rather than juggling a
                                     second stack purely for this project.
                                 </p>

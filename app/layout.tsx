@@ -17,15 +17,15 @@ const themeScript = `
 
 export const metadata: Metadata = {
     metadataBase: new URL("https://wjleece.dev"),
-    title: "Will Leece | Full-Stack Dotnet Developer | ASP.NET Core, C# | UK",
-    description: "Will Leece is a UK-based full-stack Dotnet developer. ASP.NET Core, C#, Blazor, SignalR, and Semantic Kernel.",
-    keywords: ["William Leece", "Will Leece", "Full-Stack Developer", "Software Engineer", "Portfolio", "Dotnet", "C#", "ASP.NET Core", "Next.js", "Tailwind CSS", "UK Developer"],
+    title: "Will Leece | Full-Stack .NET Developer | ASP.NET Core, C# | UK",
+    description: "Will Leece is a UK-based full-stack .NET developer. ASP.NET Core, C#, Blazor, SignalR, and Semantic Kernel.",
+    keywords: ["William Leece", "Will Leece", "Full-Stack Developer", "Software Engineer", "Portfolio", ".NET", "C#", "ASP.NET Core", "Next.js", "Tailwind CSS", "UK Developer"],
     authors: [{ name: "William Leece", url: "https://wjleece.dev" }],
     creator: "William Leece",
     publisher: "William Leece",
     openGraph: {
-        title: "Will Leece | Full-Stack Dotnet Developer | ASP.NET Core, C# | UK",
-        description: "Will Leece is a UK-based full-stack Dotnet developer. ASP.NET Core, C#, Blazor, SignalR, and Semantic Kernel.",
+        title: "Will Leece | Full-Stack .NET Developer | ASP.NET Core, C# | UK",
+        description: "Will Leece is a UK-based full-stack .NET developer. ASP.NET Core, C#, Blazor, SignalR, and Semantic Kernel.",
         url: "https://wjleece.dev/",
         siteName: "wjleece.dev",
         type: "website",
@@ -33,8 +33,8 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Will Leece | Full-Stack Dotnet Developer | ASP.NET Core, C# | UK",
-        description: "Will Leece is a UK-based full-stack Dotnet developer. ASP.NET Core, C#, Blazor, SignalR, and Semantic Kernel.",
+        title: "Will Leece | Full-Stack .NET Developer | ASP.NET Core, C# | UK",
+        description: "Will Leece is a UK-based full-stack .NET developer. ASP.NET Core, C#, Blazor, SignalR, and Semantic Kernel.",
         images: ["/opengraph-image"],
     },
     alternates: {
