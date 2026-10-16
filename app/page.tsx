@@ -34,7 +34,8 @@ export default function Home() {
                 "Build production AI features with Microsoft Agent Framework across a range of use cases, from chat interfaces to recommendation generators.",
                 "Set up AI-assisted development workflows in Codex and Claude, using optimised instruction files, execution plans and git worktrees. Running two to three workstreams in parallel at least doubles my throughput.",
                 "Built an AI benchmarking suite, packaged as a Codex skill, that compares any model available in Codex on a common task, and tests instruction files per model per task to find the best model and instruction file for each job.",
-                "Build real-time, multi-tenant dispatch features in ASP.NET Core, SignalR and EF Core, alongside SignalR wallboards and a reusable framework that gets a new branch its boards in about 20 minutes.",
+                "Built SignalR wallboards and a reusable framework that gets a new branch its boards in about 20 minutes.",
+                "Build features for a multi-tenant client portal in ASP.NET Core, Blazor and EF Core, where customers view their own data and submit requests.",
                 "Optimised many slow reports and queries, some from minutes to seconds, using parameterised OPENQUERY, subquery filtering and EF Core refactoring."
             ]
         },
@@ -175,7 +176,7 @@ export default function Home() {
             <section id="skills" className="scroll-mt-20 max-w-4xl mx-auto px-6 py-12" aria-label="About and Skills">
                 <h2 className="text-3xl font-semibold mb-6 text-left">About</h2>
                 <p className="text-muted-foreground max-w-3xl">
-                    I specialise in real-time .NET systems, SignalR and multi-tenant dispatch, and in AI-output
+                    I build .NET web apps, from real-time SignalR wallboards to multi-tenant client portals, and I specialise in AI-output
                     verification: building independent QA and checks around LLM-generated content rather than
                     trusting model output directly.
                 </p>
