@@ -94,5 +94,5 @@ npm run lint     # ESLint
 
 - Write ".NET" (not "Dotnet") everywhere: titles, meta, tags, CV. Recruiters search ".NET".
 - The public CV must not contain a phone number. Location is "Fife, Scotland · Remote".
-- Both roles are remote for a Chesterfield-based employer; say so.
+- The current role is remote for a Chesterfield-based employer; the junior role (Oct 2022 to Mar 2025) was hybrid, on-site in Chesterfield. Say so.
 - Never invent metrics. Numbers on the CV/site must be real (Meducate figures already on the site are fine to reuse).

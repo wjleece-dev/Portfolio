@@ -42,7 +42,7 @@ export default function Home() {
         {
             years: "Oct 2022 – Mar 2025",
             role: "Junior .NET Developer at Central Technology",
-            location: "Remote · Chesterfield-based company",
+            location: "Chesterfield, UK · Hybrid",
             desc: [
                 "Built bespoke features across internal and customer-facing CRUD applications using ASP.NET Core, C#, and EF Core.",
                 "Authored bespoke reports for recurring operational issues and data forensics that turn manual investigation into repeatable tooling."
