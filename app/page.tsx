@@ -27,7 +27,7 @@ export default function Home() {
 
     const experience = [
         {
-            years: "Feb 2025 – Present",
+            years: "Mar 2025 – Present",
             role: ".NET Developer at Central Technology",
             location: "Remote · Chesterfield-based company",
             desc: [
@@ -40,7 +40,7 @@ export default function Home() {
             ]
         },
         {
-            years: "Oct 2022 – Feb 2025",
+            years: "Oct 2022 – Apr 2025",
             role: "Junior .NET Developer at Central Technology",
             location: "Remote · Chesterfield-based company",
             desc: [
