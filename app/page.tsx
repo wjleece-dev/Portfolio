@@ -34,7 +34,8 @@ export default function Home() {
                 "Build production AI features with Microsoft Agent Framework across a range of use cases, from chat interfaces to recommendation generators.",
                 "Set up AI-assisted development workflows in Codex and Claude, using optimised instruction files, execution plans and git worktrees. Running two to three workstreams in parallel at least doubles my throughput.",
                 "Built an AI benchmarking suite, packaged as a Codex skill, that compares any model available in Codex on a common task, and tests instruction files per model per task to find the best model and instruction file for each job.",
-                "Build real-time, multi-tenant dispatch features in ASP.NET Core, SignalR and EF Core, alongside SignalR wallboards and a reusable framework that gets a new branch its boards in about 20 minutes."
+                "Build real-time, multi-tenant dispatch features in ASP.NET Core, SignalR and EF Core, alongside SignalR wallboards and a reusable framework that gets a new branch its boards in about 20 minutes.",
+                "Optimised many slow reports and queries, some from minutes to seconds, using parameterised OPENQUERY, subquery filtering and EF Core refactoring."
             ]
         },
         {
