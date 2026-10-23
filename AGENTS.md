@@ -48,14 +48,14 @@ Homepage content lives in `app/page.tsx`. Tech badges (with brand logos) come fr
 
 ### Meducate API
 - Live at meducateapi.com
-- GitHub: github.com/kino1307/MeducateAPI
+- GitHub: github.com/wjleece-dev/MeducateAPI
 - Free tier: 1,000 req/day, no credit card — demo key at meducateapi.com/docs
 - Key technical differentiator: nightly QC jobs that compare LLM-generated summaries against upstream source content and flag drift for re-processing
 - Case study covers: Problem → Architecture & Tech Decisions (5 bullets) → Outcome
 - Card CTA: "Try with demo key →" → meducateapi.com/docs
 
 ### Wayfarer
-- Live at wayfarer.wjleece.dev, GitHub: github.com/kino1307/Wayfarer
+- Live at wayfarer.wjleece.dev, GitHub: github.com/wjleece-dev/Wayfarer
 - Natural-language query → map, grounded in Wikidata (not guessed by an LLM)
 - Key technical differentiator: an agent reads Wikidata's schema live and builds/tests SPARQL at query time (no fixed template library), gated by an independent verification pass before anything reaches the map
 - BYOK: no server-side LLM key, users bring their own Anthropic or OpenAI key

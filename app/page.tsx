@@ -63,7 +63,7 @@ export default function Home() {
         },
         "sameAs": [
             "https://www.linkedin.com/in/wjleece/",
-            "https://github.com/kino1307"
+            "https://github.com/wjleece-dev"
         ],
         "knowsAbout": [
             "ASP.NET Core", "C#", ".NET", "Entity Framework Core",
@@ -150,7 +150,7 @@ export default function Home() {
 
                     <Button asChild size="sm" variant="ghost" aria-label="GitHub" className="cursor-pointer">
                         <a
-                            href="https://github.com/kino1307"
+                            href="https://github.com/wjleece-dev"
                             target="_blank"
                             rel="noopener noreferrer me"
                         >
@@ -227,7 +227,7 @@ export default function Home() {
                         <a href="https://meducateapi.com/docs" target="_blank" rel="noopener noreferrer" className="text-sm font-medium hover:underline">
                             Try with demo key →
                         </a>
-                        <a href="https://github.com/kino1307/MeducateAPI" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition flex items-center gap-1">
+                        <a href="https://github.com/wjleece-dev/MeducateAPI" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition flex items-center gap-1">
                             <SiGithub className="w-3.5 h-3.5 text-[#8250df] transition-opacity hover:opacity-80" /> GitHub
                         </a>
                         <span className="text-sm text-muted-foreground">Free tier: 1,000 req/day · no credit card</span>
@@ -361,7 +361,7 @@ export default function Home() {
                         <a href="https://wayfarer.wjleece.dev" target="_blank" rel="noopener noreferrer" className="text-sm font-medium hover:underline">
                             Try it live →
                         </a>
-                        <a href="https://github.com/kino1307/Wayfarer" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition flex items-center gap-1">
+                        <a href="https://github.com/wjleece-dev/Wayfarer" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition flex items-center gap-1">
                             <SiGithub className="w-3.5 h-3.5 text-[#8250df] transition-opacity hover:opacity-80" /> GitHub
                         </a>
                         <span className="text-sm text-muted-foreground">BYOK &middot; bring your own Anthropic or OpenAI key, nothing stored server-side</span>
