@@ -10,7 +10,7 @@ Personal portfolio site for Will Leece (wjleece.dev). Next.js app: a single-page
 
 - **Next.js 16 / React 19** — App Router, statically prerendered
 - **Tailwind CSS v4** — utility-first, no custom theme config file; uses CSS vars via `globals.css`
-- **TypeScript 6**
+- **TypeScript 6** (pinned to ~6.0: typescript-eslint does not support TS 7 yet, so `npm run lint` breaks on 7. Revisit when TS 7.1 and a matching typescript-eslint ship.)
 - **shadcn/ui** — only `Button` primitive installed (`components/ui/`)
 - **lucide-react** — icons
 - **react-icons** — Simple Icons (`si`) for tech badges and GitHub, `FaLinkedin` (Font Awesome)
